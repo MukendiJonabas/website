@@ -1,5 +1,6 @@
 import Image from "next/image";
-import tech from "../public/syca.png";
+import tech from "../public/Cover.jpg";
+
 export default function HeroSection() {
   return (
     <section className="w-full">
@@ -9,7 +10,7 @@ export default function HeroSection() {
             SYCAMORE sarl
           </h2>
 
-          <div className="Maclasse place-items-start text-green-800 flex flex-col md:flex-col text-[1.2rem]  gap-3 ml-3 mr-3 md:ml-36 md:mr-36 font-semibold">
+          <div className="Maclasse place-items-start text-green-950 flex flex-col md:flex-col text-[1.2rem]  gap-3 ml-3 mr-3 md:ml-36 md:mr-36 font-medium">
             <p className="block1 p-1 text-start">
               SYCAMORE est l'un des principaux fournisseurs de solutions
               informatiques et innovation en République Démocratique du Congo
@@ -20,16 +21,16 @@ export default function HeroSection() {
               public, aux entreprises du secteur privé et aux partenaires en RD
               Congo.
             </p>
-            <button className="p-1 border-4 border-green-800 bg-green-200 text-green-900 font-bold rounded hover:bg-green-800 hover:text-green-50">
+            <button className="p-1 border-4 border-green-200 bg-green-200 text-green-900 font-bold rounded hover:bg-green-800 hover:text-green-50 hover:border-green-800">
               Learn More..
             </button>
           </div>
         </div>
-        <div className="h-auto w-full p-2 basis-3/6">
+        <div className="h-auto w-auto  basis-3/6">
           <Image
             src={tech}
             alt="Hero"
-            className="block1 w-full h-auto bg-green-50 p-2"
+            className="block1 w-full h-full bg-green-50 rounded-md border-2 border-green-950"
           />
         </div>
       </div>
