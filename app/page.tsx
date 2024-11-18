@@ -12,17 +12,17 @@ import Finalsection from "@/components/Finalsection";
 export default function Home() {
   return (
     <div>
-      <Header/>
-      <HeroSection/>
-      <Partenaires/>
-      <Confiance/>
-      <Digipublic/>
-      <Easypay/>
-      <Rollap/>
-      <Imagefin/>
-      <Finalsection/>
-      <Footer/>
-      
-      </div>
+      <Header />
+
+      <HeroSection />
+      <Partenaires />
+      <Confiance />
+      <Digipublic />
+      <Easypay />
+      <Rollap />
+      <Imagefin />
+      <Finalsection />
+      <Footer />
+    </div>
   );
 }
