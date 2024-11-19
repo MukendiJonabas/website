@@ -6,7 +6,7 @@ import Partenaires from "@/components/Partenaires";
 import Confiance from "@/components/Confiance";
 import Digipublic from "@/components/Digipublic";
 import Easypay from "@/components/Easypay";
-import Rollap from "@/components/Rollapp";
+import Payday from "@/components/payday";
 import Imagefin from "@/components/Imagefin";
 import Finalsection from "@/components/Finalsection";
 export default function Home() {
@@ -15,11 +15,12 @@ export default function Home() {
       <Header />
 
       <HeroSection />
+
       <Partenaires />
       <Confiance />
       <Digipublic />
       <Easypay />
-      <Rollap />
+      <Payday />
       <Imagefin />
       <Finalsection />
       <Footer />
