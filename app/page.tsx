@@ -7,7 +7,7 @@ import Confiance from "@/components/Confiance";
 import Digipublic from "@/components/Digipublic";
 import Easypay from "@/components/Easypay";
 import Payday from "@/components/payday";
-import Imagefin from "@/components/Imagefin";
+import Imagefin from "@/components/jean";
 import Finalsection from "@/components/Finalsection";
 import Casescontact from "@/components/casecontact";
 export default function Home() {
