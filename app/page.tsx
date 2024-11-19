@@ -6,25 +6,25 @@ import Partenaires from "@/components/Partenaires";
 import Confiance from "@/components/Confiance";
 import Digipublic from "@/components/Digipublic";
 import Easypay from "@/components/Easypay";
-import Rollap from "@/components/Rollapp";
+import Payday from "@/components/payday";
 import Imagefin from "@/components/Imagefin";
 import Finalsection from "@/components/Finalsection";
 import Casescontact from "@/components/casecontact";
 export default function Home() {
   return (
     <div>
-      <Header/>
-      <HeroSection/>
-      <Partenaires/>
-      <Confiance/>
-      <Digipublic/>
-      <Easypay/>
-      <Rollap/>
-      <Imagefin/>
-      <Finalsection/>
-      <Casescontact/>
-      <Footer/>
-      
-      </div>
+      <Header />
+
+      <HeroSection />
+      <Partenaires />
+      <Confiance />
+      <Digipublic />
+      <Easypay />
+      <Payday />
+      <Imagefin />
+      <Finalsection />
+      <Casescontact />
+      <Footer />
+    </div>
   );
 }
