@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Rollap(){
     return(
         <div className="my-24 p-4 text-black">
@@ -14,13 +16,13 @@ export default function Rollap(){
                 </p>
               </div>
               <div className="w-4/7 pr-12 lg:w-2/5">
-                <img
-                  src="/images/placeholder.png"
+                <Image
+                  src=""
                   className="hidden object-cover object-center lg:inline-block"
                   alt="image"
                 />
-                <img
-                  src="/images/placeholder.png"
+                <Image
+                  src=""
                   className="inline-block object-cover object-center lg:hidden"
                   alt="image"
                 />

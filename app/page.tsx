@@ -9,6 +9,7 @@ import Easypay from "@/components/Easypay";
 import Rollap from "@/components/Rollapp";
 import Imagefin from "@/components/Imagefin";
 import Finalsection from "@/components/Finalsection";
+import Casescontact from "@/components/casecontact";
 export default function Home() {
   return (
     <div>
@@ -21,6 +22,7 @@ export default function Home() {
       <Rollap/>
       <Imagefin/>
       <Finalsection/>
+      <Casescontact/>
       <Footer/>
       
       </div>
