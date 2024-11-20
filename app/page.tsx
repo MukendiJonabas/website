@@ -13,7 +13,7 @@ import Casescontact from "@/components/casecontact";
 import NbrUser from "@/components/compteur";
 export default function Home() {
   return (
-    <div>
+    <div className="justify-center items-center">
       <Header />
 
       <HeroSection />

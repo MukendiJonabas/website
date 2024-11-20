@@ -2,7 +2,8 @@ import Image from "next/image";
 import Phone from "@/public/phone-4.png";
 export default function Easypay() {
   return (
-    <div className="mt-32 max-w-7xl">
+    <div className="bg-gray-100">
+    <div className="m-7 max-w-6xl">
       <div className="mx-auto flex flex-col px-5 py-24 text-left lg:flex-row">
         <div className="hidden lg:inline-block lg:w-full lg:max-w-xl">
           <Image src={Phone} alt="img" />
@@ -24,6 +25,7 @@ export default function Easypay() {
           <Image src="" alt="img" />
         </div>
       </div>
+    </div>
     </div>
   );
 }
