@@ -24,7 +24,7 @@ export default function Home() {
       <Digipublic />
       <Easypay />
       <Payday />
-      {/* <Imagefin /> */}
+      <Imagefin />
       <Finalsection />
       <Casescontact />
       <Footer />
