@@ -12,7 +12,7 @@ import Finalsection from "@/components/Finalsection";
 import Casescontact from "@/components/casecontact";
 export default function Home() {
   return (
-    <div>
+    <div className="justify-center items-center">
       <Header />
 
       <HeroSection />

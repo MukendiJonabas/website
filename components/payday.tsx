@@ -2,8 +2,8 @@ import Image from "next/image";
 import Syc from "../public/executive-smiling-with-laptop.jpg";
 export default function Rollap() {
   return (
-    <div className="my-24 p-4 text-black">
-      <div className="max-w-9xl mx-auto flex flex-col items-center bg-gradient-to-r from-teal-100 to-white px-5 py-24 lg:flex-row">
+    <div className="my-5  text-black">
+      <div className="max-w-7xl mx-auto flex flex-col items-center bg-gradient-to-r from-teal-100 to-white px-5 py-5 lg:flex-row">
         <div className="max-w-7xl mx-auto px-5 py-24 flex flex-col md:flex-row gap-5 place-items-center">
           <div className="my-6 flex w-full flex-col basis-4/12 block1">
             <h3 className="mb-3 md:mb-8 text-5xl font-extrabold text-green-900">
