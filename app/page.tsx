@@ -10,6 +10,7 @@ import Payday from "@/components/payday";
 import Imagefin from "@/components/jean";
 import Finalsection from "@/components/Finalsection";
 import Casescontact from "@/components/casecontact";
+import NbrUser from "@/components/compteur";
 export default function Home() {
   return (
     <div>
@@ -17,11 +18,13 @@ export default function Home() {
 
       <HeroSection />
       <Partenaires />
+      <NbrUser />
       <Confiance />
+
       <Digipublic />
       <Easypay />
       <Payday />
-      <Imagefin />
+      {/* <Imagefin /> */}
       <Finalsection />
       <Casescontact />
       <Footer />
